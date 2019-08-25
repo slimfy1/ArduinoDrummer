@@ -2499,10 +2499,10 @@ void setup()
     pinMode(FT, OUTPUT);
     pinMode(RC, OUTPUT);
 
-    digitalWrite(HH , HIGH);
-    digitalWrite(SN, HIGH);
-    digitalWrite(FT, HIGH);
-    digitalWrite(RC, HIGH);
+    digitalWrite(HH, LOW);
+    digitalWrite(SN, LOW);
+    digitalWrite(FT, LOW);
+    digitalWrite(RC, LOW);
     Serial.begin (9600);
     delay(500);
     mp3_set_serial (Serial);    //set Serial for DFPlayer-mini mp3 module
