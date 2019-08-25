@@ -2506,22 +2506,22 @@ void setup()
     Serial.begin (9600);
     delay(500);
     mp3_set_serial (Serial);    //set Serial for DFPlayer-mini mp3 module
-    delay (500);
+    delay(500);
     mp3_set_volume (60);
 }
 
 void loop()
 {
     //Megadeth - Looking Down The Cross
-    mp3_play (5);
+    mp3_play (3);
     MegadetHLooking();
     //Seven Nation Army - Seven Stripes
-    mp3_play (1);
+    mp3_play (2);
     seven();
     //We will rock you
-    mp3_play (3);
+    mp3_play (4);
     werock();
     //Metallica - NEM
-    mp3_play (4);
+    mp3_play (1);
     nothing();
 }
